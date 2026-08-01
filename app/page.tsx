@@ -174,7 +174,13 @@ export default function Home() {
 
       <section className="cta" id="download">
         <div>
-          <p className="eyebrow">Tiny tool. Immediate relief.</p>
+          <div className="cta-lockup">
+            <span className="logo-tile cta-logo" aria-hidden="true">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.png" alt="" width="28" height="28" />
+            </span>
+            <p className="eyebrow">Tiny tool. Immediate relief.</p>
+          </div>
           <h2>Ready when your screen isn’t.</h2>
         </div>
         <a className="button button-cta" href={RELEASE_URL} target="_blank" rel="noreferrer">
