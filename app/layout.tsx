@@ -5,7 +5,7 @@ const siteUrl = "https://blankscreen.rakibhq.xyz";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "BlankScreen — Let the screen go black",
+  title: "BlankScreen - Let the screen go black",
   description:
     "A tiny Windows utility that covers every display with pure black while your background work keeps running.",
   alternates: { canonical: "/" },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "BlankScreen",
     title: "Keep the work running. Let the screen go black.",
     description: "One tiny Windows utility. No install. One touch to return.",
-    images: [{ url: "/og.png", width: 1728, height: 908, alt: "BlankScreen — Keep the work running. Let the screen go black." }],
+    images: [{ url: "/og.png", width: 1728, height: 908, alt: "BlankScreen - Keep the work running. Let the screen go black." }],
   },
   twitter: {
     card: "summary_large_image",
