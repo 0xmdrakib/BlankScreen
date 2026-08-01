@@ -300,13 +300,13 @@ h1 span { display: block; color: #8d8d8d; }
 .button-cta { border: 1px solid var(--blue); background: var(--blue); color: #fff; }
 .button-cta:hover { background: var(--blue-hover); }
 
-footer { display: grid; padding: 36px clamp(24px, 4vw, 64px) 20px; grid-template-columns: 1fr 1fr 1fr; column-gap: 32px; row-gap: 24px; border-top: 1px solid var(--line); background: var(--surface); color: var(--muted); }
-.footer-brand { display: flex; align-items: flex-start; gap: 12px; color: var(--ink); }
+footer { display: grid; min-height: 188px; padding: 28px clamp(24px, 4vw, 64px) 22px; grid-template-columns: 1fr 1.2fr 1fr; grid-template-rows: auto auto; align-items: center; align-content: center; column-gap: 32px; row-gap: 30px; border-top: 1px solid var(--line); background: var(--surface); color: var(--muted); }
+.footer-brand { display: flex; align-items: center; gap: 12px; color: var(--ink); }
 .footer-logo { width: 32px; height: 32px; }
 .footer-logo img { width: 30px; height: 30px; }
-.footer-links { display: flex; align-items: flex-start; justify-content: flex-end; gap: 24px; font-size: 14px; }
+.footer-links { display: flex; align-items: center; justify-content: flex-end; gap: 24px; font-size: 14px; }
 .footer-links a:hover { color: var(--blue); }
-footer p { margin: 0; font-size: 14px; }
+footer p { align-self: center; margin: 0; text-align: center; font-size: 14px; }
 footer small { grid-column: 1 / -1; justify-self: center; color: var(--subtle); text-align: center; }
 
 @media (max-width: 1120px) {
@@ -376,8 +376,9 @@ footer small { grid-column: 1 / -1; justify-self: center; color: var(--subtle); 
   .truth-copy p { font-size: 16px; }
   .cta { min-height: 330px; flex-direction: column; align-items: stretch; justify-content: flex-end; gap: 36px; padding: 52px 20px; }
   .cta::before { left: 20px; width: 72px; }
-  footer { grid-template-columns: 1fr; padding: 36px 20px 22px; row-gap: 18px; }
+  footer { min-height: 236px; grid-template-columns: 1fr; grid-template-rows: repeat(4, auto); align-items: start; padding: 34px 20px 22px; row-gap: 18px; }
   .footer-links { justify-content: flex-start; flex-wrap: wrap; }
+  footer p { text-align: left; }
   footer small { grid-column: 1; }
 }
 
