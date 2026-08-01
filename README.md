@@ -26,7 +26,7 @@ Download: [Latest GitHub Release](https://github.com/0xmdrakib/BlankScreen/relea
 Open the [latest release](https://github.com/0xmdrakib/BlankScreen/releases/latest) and choose either:
 
 1. `BlankScreen.exe`
-2. `BlankScreen-Windows-v1.0.0.zip`, containing only the same executable
+2. `BlankScreen-Windows-v1.0.1.zip`, containing only the same executable
 
 ## How It Works
 
