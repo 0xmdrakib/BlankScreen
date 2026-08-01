@@ -1,9 +1,5 @@
 # BlankScreen
 
-<p align="center">
-  <img src="public/logo.png" width="112" alt="BlankScreen logo">
-</p>
-
 BlankScreen is a fun, impactful, minimal Windows mini tool that covers every connected display with pure black while your background work keeps running.
 
 Website: [blankscreen.rakibhq.xyz](https://blankscreen.rakibhq.xyz/)
@@ -42,17 +38,32 @@ BlankScreen draws an opaque black layer over Windows. It does not power off the 
 
 ## Run From Source
 
-Python 3.10 or newer with Tk support is required:
+The downloadable `.exe` needs no setup. The instructions below are only for running or building the source code.
+
+### 1. Install the requirement
+
+Use Python 3.10 or newer for Windows with Tk support. Tk is included with the standard installer from [python.org](https://www.python.org/downloads/windows/).
+
+### 2. Run BlankScreen
+
+Open PowerShell in the repository folder and run:
 
 ```powershell
 python .\BlankScreen.pyw
 ```
 
-To create the standalone executable:
+Every display will turn black immediately. Click anywhere or press any key to close BlankScreen.
+
+### 3. Build a standalone executable
+
+Install PyInstaller, then create the executable:
 
 ```powershell
+python -m pip install pyinstaller
 pyinstaller --clean --onefile --windowed --name BlankScreen .\BlankScreen.pyw
 ```
+
+The finished file will be available at `dist\BlankScreen.exe`.
 
 ## License
 
