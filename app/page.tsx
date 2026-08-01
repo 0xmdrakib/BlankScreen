@@ -100,8 +100,6 @@ export default function Home() {
             <span className="visual-status"><i /> SYSTEM ACTIVE</span>
           </div>
           <div className="visual-core">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="hero-logo" src="/logo.png" alt="" width="512" height="512" />
             <div className="black-screen">
               <span>PURE BLACK</span>
               <strong>00</strong>
@@ -179,7 +177,7 @@ export default function Home() {
           <p className="eyebrow">Tiny tool. Immediate relief.</p>
           <h2>Ready when your screen isn’t.</h2>
         </div>
-        <a className="button button-inverse" href={RELEASE_URL} target="_blank" rel="noreferrer">
+        <a className="button button-cta" href={RELEASE_URL} target="_blank" rel="noreferrer">
           Get BlankScreen <Arrow />
         </a>
       </section>
